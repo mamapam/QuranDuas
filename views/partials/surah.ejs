@@ -1,0 +1,811 @@
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #1 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah1">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[0].data[0].number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[0].data[0].englishName)%> | <%=JSON.stringify(allData[0].data[0].englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[0].data[0].name)%></span>
+    </div>
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=0; i<7; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/1_<%=i+1%>.png" class="card-img-top ayat-image">
+          <p class="card-text englishtranslation"><%=JSON.stringify(allData[0].data[0].ayahs[i].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[0].data[1].ayahs[i].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #2 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah2">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[1].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[1].data[0].surah.englishName)%> | <%=JSON.stringify(allData[1].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[1].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=0; i<5; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah2-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i+1].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i+1].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #3 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah3">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[6].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[6].data[0].surah.englishName)%> | <%=JSON.stringify(allData[6].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[6].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=6; i<16; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah3-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #5 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah5">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[16].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[16].data[0].surah.englishName)%> | <%=JSON.stringify(allData[16].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[16].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=16; i<17; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/5_83.png"  class="card-img-top ayat-image surah5-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #7 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah7">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[17].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[17].data[0].surah.englishName)%> | <%=JSON.stringify(allData[17].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[17].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=17; i<20; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah7-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #10 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah10">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[20].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[20].data[0].surah.englishName)%> | <%=JSON.stringify(allData[20].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[20].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=20; i<22; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah10-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #11 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah11">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[22].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[22].data[0].surah.englishName)%> | <%=JSON.stringify(allData[22].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[22].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=22; i<23; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/11_47.png"  class="card-img-top ayat-image surah11-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #12 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah13">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[23].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[23].data[0].surah.englishName)%> | <%=JSON.stringify(allData[23].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[23].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=23; i<24; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/12_101.png"  class="card-img-top ayat-image surah12-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #14 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah14">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[24].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[24].data[0].surah.englishName)%> | <%=JSON.stringify(allData[24].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[24].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=24; i<27; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah14-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #17 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah17">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[27].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[27].data[0].surah.englishName)%> | <%=JSON.stringify(allData[27].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[27].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=27; i<29; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah17-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #18 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah18">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[29].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[29].data[0].surah.englishName)%> | <%=JSON.stringify(allData[29].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[29].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=29; i<30; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/18_10.png"  class="card-img-top ayat-image surah18-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #20 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah20">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[30].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[30].data[0].surah.englishName)%> | <%=JSON.stringify(allData[30].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[30].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=30; i<33; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah20-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #21 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah21">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[33].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[33].data[0].surah.englishName)%> | <%=JSON.stringify(allData[33].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[33].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=33; i<35; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah21-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #23 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah23">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[35].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[35].data[0].surah.englishName)%> | <%=JSON.stringify(allData[35].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[35].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=35; i<41; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah23-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #25 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah25">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[41].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[41].data[0].surah.englishName)%> | <%=JSON.stringify(allData[41].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[41].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=41; i<43; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah25-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #26 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah26">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[43].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[43].data[0].surah.englishName)%> | <%=JSON.stringify(allData[43].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[43].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=43; i<51; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah26-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #27 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah27">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[51].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[51].data[0].surah.englishName)%> | <%=JSON.stringify(allData[51].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[51].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=51; i<52; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/27_19.png"  class="card-img-top ayat-image surah27-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #28 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah28">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[52].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[52].data[0].surah.englishName)%> | <%=JSON.stringify(allData[52].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[52].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=52; i<56; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah28-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #29 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah29">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[56].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[56].data[0].surah.englishName)%> | <%=JSON.stringify(allData[56].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[56].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=56; i<57; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/29_30.png"  class="card-img-top ayat-image surah29-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #35 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah35">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[57].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[57].data[0].surah.englishName)%> | <%=JSON.stringify(allData[57].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[57].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=57; i<58; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/35_34.png"  class="card-img-top ayat-image surah35-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #37 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah37">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[58].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[58].data[0].surah.englishName)%> | <%=JSON.stringify(allData[58].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[58].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=58; i<59; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/37_100.png"  class="card-img-top ayat-image surah37-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #40 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah40">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[59].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[59].data[0].surah.englishName)%> | <%=JSON.stringify(allData[59].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[59].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=59; i<62; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah40-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #44 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah44">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[62].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[62].data[0].surah.englishName)%> | <%=JSON.stringify(allData[62].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[62].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=62; i<63; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/44_12.png"  class="card-img-top ayat-image surah44-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #46 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah46">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[63].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[63].data[0].surah.englishName)%> | <%=JSON.stringify(allData[63].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[63].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=63; i<64; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/46_15.png"  class="card-img-top ayat-image surah46-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #59 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah59">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[64].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[64].data[0].surah.englishName)%> | <%=JSON.stringify(allData[64].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[64].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=64; i<65; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/59_10.png"  class="card-img-top ayat-image surah59-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #60 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah60">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[65].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[65].data[0].surah.englishName)%> | <%=JSON.stringify(allData[65].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[65].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=65; i<67; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah60-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #66 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah66">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[67].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[67].data[0].surah.englishName)%> | <%=JSON.stringify(allData[67].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[67].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=67; i<71; i++) { %>
+        <li class="list-group-item">
+          <img src=""  class="card-img-top ayat-image surah66-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #71 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah71">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[71].data[0].surah.number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[71].data[0].surah.englishName)%> | <%=JSON.stringify(allData[71].data[0].surah.englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[71].data[0].surah.name)%></span>
+    </div> 
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=71; i<72; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/71_28.png"  class="card-img-top ayat-image surah71-image">
+          <p class="card-text englishtranslation pt-5"><%=JSON.stringify(allData[i].data[0].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[i].data[1].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #112 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah112">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[72].data[0].number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[72].data[0].englishName)%> | <%=JSON.stringify(allData[72].data[0].englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[72].data[0].name)%></span>
+    </div>
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=0; i<4; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/112_<%=i+1%>.png" class="card-img-top ayat-image">
+          <p class="card-text englishtranslation"><%=JSON.stringify(allData[72].data[0].ayahs[i].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[72].data[1].ayahs[i].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #113 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah113">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[73].data[0].number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[73].data[0].englishName)%> | <%=JSON.stringify(allData[73].data[0].englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[73].data[0].name)%></span>
+    </div>
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=0; i<5; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/113_<%=i+1%>.png" class="card-img-top ayat-image">
+          <p class="card-text englishtranslation"><%=JSON.stringify(allData[73].data[0].ayahs[i].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[73].data[1].ayahs[i].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ SURAH #114 +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="card mt-4 surahcard" id="surah114">
+  <div class="card-header d-flex justify-content-around card-header-custom">
+    <div class="left-most text-left">
+      <span class="align-middle">No. <%=JSON.stringify(allData[74].data[0].number)%></span>
+    </div>
+    <div class="left-most text-left">
+      <span class="align-middle"><%=JSON.stringify(allData[74].data[0].englishName)%> | <%=JSON.stringify(allData[74].data[0].englishNameTranslation)%></span>
+    </div>
+    <div class="right-most text-right arabic-font">
+      <span class="align-middle"><%=JSON.stringify(allData[74].data[0].name)%></span>
+    </div>
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <% for(var i=0; i<6; i++) { %>
+        <li class="list-group-item">
+          <img src="/quran/114_<%=i+1%>.png" class="card-img-top ayat-image">
+          <p class="card-text englishtranslation"><%=JSON.stringify(allData[74].data[0].ayahs[i].text)%></p>
+          <p class="card-text urdu-font urdutranslation text-right"><%=JSON.stringify(allData[74].data[1].ayahs[i].text)%></p>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->

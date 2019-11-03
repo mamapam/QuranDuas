@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "MeQuran";
+  src: url("/fonts/me_quran_2.ttf");
+}
+
+@font-face {
+  font-family: "Urdu";
+  src: url("/fonts/Pak_Nastaleeq.ttf");
+}
+
+.arabic-font {
+  font-family: "MeQuran";
+}
+
+.urdu-font {
+  font-family: "Urdu";
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  background-color: #f3e9d2;
+  padding-bottom: 2%;
+}
+
+/* change the background color */
+.navbar-custom {
+  background-color: #114b5f;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #c6dabf;
+  font-size: 2em;
+}
+
+.card-header-custom {
+  background-color: #1a936f;
+}
+
+.left-most {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.right-most {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.englishtranslation {
+  font-size: 1.5em;
+}
+
+.urdutranslation {
+  font-size: 2.5em;
+}
+
+#topButton {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #1a936f; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+}
+
+#filterCard label {
+  font-size: 1.1em;
+}
