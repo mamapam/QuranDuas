@@ -73,3 +73,43 @@ body {
 #filterCard label {
   font-size: 1.1em;
 }
+
+.tableFixHead {
+  overflow-y: auto;
+  height: 500px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+
+.tableFixHead thead th {
+  position: sticky;
+  top: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+th, td {
+  padding: 8px 16px;
+}
+
+th {
+  background-color: #1a936f;
+  z-index: 1;
+}
+
+tbody {
+  background-color: #c6dabf;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+input[type='checkbox'] { 
+  transform: scale(2); 
+}
+
+

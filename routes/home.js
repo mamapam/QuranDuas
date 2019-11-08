@@ -11,7 +11,6 @@ var formattedData = [];
 // Gets the home page
 router.get('/', function(req, res) {
   if(cachedData == undefined) {
-    console.log('in here');
     apiData.getAllData().then(function(returned) {
       returned.forEach(function(obj) {
         formattedData.push(JSON.parse(obj));
